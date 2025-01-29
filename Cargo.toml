@@ -1,0 +1,11 @@
+[package]
+name = "bloomfiltermail"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bloom = "*"
+walkdir = "*"
+url-parse = { path = "url-parse" }
+rand = "0.8"
+chrono = "0.4" 
